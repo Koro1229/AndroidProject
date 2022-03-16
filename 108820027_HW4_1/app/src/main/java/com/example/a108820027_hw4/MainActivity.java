@@ -26,11 +26,7 @@ public class MainActivity extends AppCompatActivity {
         mEditText = findViewById(R.id.editText_main);
 
         if(savedInstanceState != null){
-            Log.d(LOG_TAG, "-------------------------------------------------");
-            Log.d(LOG_TAG,"edit_text:");
-            Log.d(LOG_TAG, savedInstanceState.getString("edit_text"));
-            Log.d(LOG_TAG, "-------------------------------------------------");
-
+            mShowCount.setText(savedInstanceState.getString("show_count"));
             mEditText.setText(savedInstanceState.getString("edit_text"));
         }
     }
@@ -44,6 +40,9 @@ public class MainActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
         if(mEditText.getText().toString() != ""){
             outState.putString("edit_text", mEditText.getText().toString());
+        }
+        if(mShowCount.getVisibility() == View.VISIBLE){
+            outState.putString("show_count", mShowCount.getText().toString());
         }
     }
 
