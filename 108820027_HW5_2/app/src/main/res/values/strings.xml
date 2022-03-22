@@ -9,12 +9,11 @@
 
     <string name="hello_first_fragment">Droid Dessert</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="donut">Ayame\'s Fire Icon</string>
-    <string name="ice_cream">Yo~dayo Nakiri Ayame desu.</string>
-    <string name="froyo">poyoyo~ That is cute.</string>
+    <string name="donut">Donuts are glazed and sprinkled with candy.</string>
+    <string name="ice_cream">Ice cream sandwiches have chocolate wafers and vanilla filling.</string>
+    <string name="froyo">FroYo is premium self-serve frozen yogurt.</string>
 
-    <string name="donut_order_message">That\'s fire.</string>
-    <string name="ice_cream_order_message">Kon-Nakiri~~ Nakiri Ayame desu.</string>
-    <string name="froyo_order_message">poyoyo~ yo~yo-yo--yo~~~~~.</string>
-    <string name="notice"><![CDATA[<--Created when I follow the course tasks :)]]></string>
+    <string name="donut_order_message">You ordered a donut.</string>
+    <string name="ice_cream_order_message">You ordered an ice cream sandwich.</string>
+    <string name="froyo_order_message">You ordered a FroYo.</string>
 </resources>
