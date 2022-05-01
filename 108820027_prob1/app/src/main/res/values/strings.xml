@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">108820027_prob1</string>
+    <string name="hobby">Hobby:</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="department">Department:</string>
+    <string name="name">Name:</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="sport">Sport</string>
+    <string name="movie">Movie</string>
+    <string name="reading">Reading</string>
+    <string name="submit">SUBMIT</string>
+    <string name="male_toast">Toast For Male</string>
+    <string name="female_toast">Toast For Female</string>
+    <string name="passed_parameters">Passed parameters:</string>
+
+    <string-array name="labels_array">
+        <item>CSIE</item>
+        <item>EE</item>
+        <item>Other</item>
+    </string-array>
+</resources>
