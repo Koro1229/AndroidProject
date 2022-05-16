@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">108820027_hw10_2</string>
+    <string name="textView1">Enter URL:</string>
+    <string name="button_text">Get Page Source</string>
+    <string name="text_hint">URL</string>
+    <string-array name="labels_array">
+        <item>http://</item>
+        <item>https://</item>
+    </string-array>
+    <string name="loading">Loading...</string>
+    <string name="no_search_term">Please enter a search term</string>
+    <string name="no_network">Please check your network connection and try again.</string>
+    <string name="no_results">No Results Found No Results Found No Results Found No Results Found</string>
+    <string name="invalid_url">Invalid URL!</string>
+    <string name="no_response">No response</string>
+</resources>
