@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StandUp</string>
+    <string name="conContent">Stand Up Alert</string>
+    <string name="conText">You should stand up and walk around now!</string>
+</resources>
