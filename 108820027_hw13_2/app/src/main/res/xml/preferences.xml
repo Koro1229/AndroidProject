@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        app:defaultValue="Setting One"
+        app:entries="@array/setting_array"
+        app:entryValues="@array/setting_values"
+        app:icon="@drawable/ic_book"
+        app:key="for_homework"
+        app:summary="@string/setting_summary"
+        app:title="@string/setting_title" />
+</androidx.preference.PreferenceScreen>
